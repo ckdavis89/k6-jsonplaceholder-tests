@@ -1,0 +1,12 @@
+{
+  "name": "k6-jsonplaceholder-tests",
+  "version": "1.0.0",
+  "description": "k6 performance test suite for JSONPlaceholder API",
+  "scripts": {
+    "smoke": "k6 run tests/smoke.js",
+    "load": "k6 run tests/load.js",
+    "stress": "k6 run tests/stress.js",
+    "spike": "k6 run tests/spike.js",
+    "soak": "k6 run tests/soak.js"
+  }
+}
